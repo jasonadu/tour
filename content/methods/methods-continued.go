@@ -17,6 +17,6 @@ func (f MyFloat) Abs() float64 {
 }
 
 func main() {
-	f := MyFloat(-math.Sqrt2)
+	f := MyFloat(-math.Sqrt2)  //use () while initializing, not like previous v := Vertex{3, 4}
 	fmt.Println(f.Abs())
 }
